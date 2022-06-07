@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+nim : 10119098
+nama : Dila Adiliani
+kelas : if-3
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/btnNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Note"
+        android:textColor="#000"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        ></Button>
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to About"
+        android:textColor="#000"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintStart_toStartOf="@+id/btnNote"
+        app:layout_constraintTop_toBottomOf="@+id/btnNote"
+        ></Button>
+
+
+
+</RelativeLayout>
