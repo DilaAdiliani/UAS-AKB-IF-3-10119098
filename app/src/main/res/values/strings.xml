@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">DilaAdiliani_10119098</string>
+    <string name="welcome">Welcome to\nMy App</string>
+
+    <string name="text_login">Login</string>
+    <string name="login_desc">Masukan Email dan Password Anda</string>
+    <string name="text_email">Email</string>
+    <string name="or">OR</string>
+    <string name="text_register">Register</string>
+    <string name="text_logout">Logout</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="register_desc">Masukan Email dan Password Anda untuk Mendaftar</string>
+    <string name="error">Field tidak boleh kosong</string>
+    <string name="text_dialog">Registrasi berhasil, tekan tombol dibawah ini untuk login</string>
 </resources>

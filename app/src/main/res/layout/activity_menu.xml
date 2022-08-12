@@ -23,21 +23,36 @@ kelas : if-3
         android:layout_marginBottom="5dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        ></Button>
+        />
 
     <Button
         android:id="@+id/btnAbout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to About"
-        android:textColor="#000"
-        android:background="@android:color/transparent"
         android:layout_marginTop="160dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:text="Go to About"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="@+id/btnNote"
-        app:layout_constraintTop_toBottomOf="@+id/btnNote"
-        ></Button>
+        app:layout_constraintTop_toBottomOf="@+id/btnNote" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/text_logout"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAbout" />
 
 
 

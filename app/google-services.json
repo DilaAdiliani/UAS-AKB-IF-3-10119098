@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169971458046",
+    "project_id": "tugasuas-c80ba",
+    "storage_bucket": "tugasuas-c80ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169971458046:android:7e5c2c664cf6caecaceaaf",
+        "android_client_info": {
+          "package_name": "com.example.dilaadiliani_10119098"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169971458046-j6hdeium2dp2kj4al5ahpinp3tqfcmri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-QcszI0BAXBPYba0CTHXmD4O7iHgC8CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169971458046-j6hdeium2dp2kj4al5ahpinp3tqfcmri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
